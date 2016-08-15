@@ -12,12 +12,16 @@ body {
 }
 
 .entry-content pre {
-    background: #efefef;
     padding: 15px 25px;
     white-space: pre;
     font-size: 15px;
     border-radius: 3px;
     font-weight: normal;
+    line-height: 20px;
+    font-family: monospace;
+    background: #30394a;
+    color: #fff;
+
 }
 
 .entry-title {
