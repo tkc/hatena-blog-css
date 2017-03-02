@@ -1,0 +1,33 @@
+@import "lib/color";
+@import "lib/font_family";
+@import "lib/font-size";
+
+#box2 {
+  #box2-inner {
+    .hatena-module-title {
+      color: $blackColor;
+      font-size: $font12;
+      a {
+        color: $blackColor;
+        font-size: $font12;
+        &:hover {
+          color: $pinkColor;
+        }
+      }
+    }
+    .hatena-id-link {
+      color: $pinkColor;
+    }
+    .hatena-urllist
+    li {
+      a {
+        color: $blackColor;
+        font-size: $font15;
+        border-bottom: none;
+        &:hover {
+          color: $pinkColor;
+        }
+      }
+    }
+  }
+}

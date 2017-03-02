@@ -1,0 +1,8 @@
+@mixin declaration($property, $value, $prefix: none) {
+  $prefix: unquote($prefix);
+  @if $prefix == none {
+    #{$property}: $value;
+  } @else {
+    #{-$prefix}-#{$property}: $value;
+  }
+}

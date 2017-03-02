@@ -1,0 +1,31 @@
+@import "lib/color";
+@import "lib/font_family";
+@import "lib/font-size";
+
+.entry {
+  background: none;
+  .entry-inner {
+    background: none;
+    .categories {
+      background: none;
+      padding: 0px;
+      margin: 10px 0px;
+    }
+    .entry-date a,
+    .entry-categories a,
+    .entry-footer-time a {
+      color: $blackColor;
+      font-size: $font15;
+      border-bottom: none;
+      &:hover {
+        color: $pinkColor;
+      }
+    }
+  }
+  .leave-comment-title {
+    background: none;
+    border: solid 1px;
+    color: $blackColor;
+    font-size: $font15;
+  }
+}
